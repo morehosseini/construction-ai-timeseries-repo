@@ -256,7 +256,7 @@ Faculty of Architecture, Building and Planning
 The University of Melbourne
 
 - 📧 Email: reza.hosseini@unimelb.edu.au
-- 📱 Phone: +61 404 724 858
+
 - 🔗 GitHub: [@morehosseini](https://github.com/morehosseini)
 
 For questions about the methodology, data requirements, or collaboration opportunities, please open an issue or contact directly.
