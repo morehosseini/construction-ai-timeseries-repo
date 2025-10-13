@@ -1,5 +1,12 @@
-pandas
-numpy
-scipy
-statsmodels
-matplotlib
+pandas>=1.5.0
+numpy>=1.23.0
+scipy>=1.10.0
+statsmodels>=0.14.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+jupyter>=1.0.0
+ipykernel>=6.20.0
+openpyxl>=3.0.0
+xlrd>=2.0.0
+black>=23.0.0
+flake8>=6.0.0

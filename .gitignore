@@ -1,13 +1,92 @@
+# Data files (not tracked for privacy/licensing)
 data/
-*.csv
 *.xlsx
-*.parquet
-*.zip
-.env
-*.env
-secrets.*
+*.xls
+*.csv
+!requirements.txt
+!**/sample_data.csv
+
+# Jupyter Notebook
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Secrets and credentials
+.env
+.env.local
+secrets/
+credentials/
+*.key
+*.pem
+
+# Output files (optional - comment out if you want to track outputs)
+outputs/figures/*.png
+outputs/figures/*.pdf
+outputs/tables/*.csv
+outputs/diagnostics/*
+!outputs/figures/.gitkeep
+!outputs/tables/.gitkeep
+!outputs/diagnostics/.gitkeep
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+.cache/
+
+# R files (if using R for supplementary analysis)
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Documentation builds
+docs/_build/
+site/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+Thumbs.db
+Desktop.ini
