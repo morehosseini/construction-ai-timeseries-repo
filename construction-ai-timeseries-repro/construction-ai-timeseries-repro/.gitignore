@@ -1,0 +1,23 @@
+# data & secrets
+data/
+*.csv
+*.xlsx
+*.parquet
+*.zip
+.env
+*.env
+secrets.*
+*.pem
+
+# notebooks
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+*.egg-info/
