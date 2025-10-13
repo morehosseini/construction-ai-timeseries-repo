@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated paper."
+title: "Construction AI Job Postings — Time-Series Analysis (reproducible repository)"
+authors:
+  - name: "Anonymous"
+date-released: 2025-10-13
+license: MIT
