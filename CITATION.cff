@@ -7,10 +7,10 @@ authors:
     orcid: "https://orcid.org/0000-0001-8675-736X"
   - family-names: Gheisari
     given-names: Masoud
-  - family-names: Elghaish
-    given-names: Faris
   - family-names: Vergés
     given-names: Roger
+  - family-names: Elghaish
+    given-names: Faris
   - family-names: Arashpour
     given-names: Mehrdad
   - family-names: Rahimian
@@ -27,10 +27,10 @@ preferred-citation:
       given-names: M. Reza
     - family-names: Gheisari
       given-names: Masoud
-    - family-names: Elghaish
-      given-names: Faris
     - family-names: Vergés
       given-names: Roger
+    - family-names: Elghaish
+      given-names: Faris
     - family-names: Arashpour
       given-names: Mehrdad
     - family-names: Rahimian
