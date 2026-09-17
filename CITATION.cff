@@ -1,46 +1,38 @@
 cff-version: 1.2.0
-message: "If you use this software in your research, please cite it as below."
-title: "Construction AI Job Postings: Time-Series Analysis - Reproducible Research Repository"
-type: software
+message: "If you use this repository, please cite the associated paper."
+title: "Construction AI Job Postings: Time-Series Analysis (reproducible repository)"
 authors:
   - family-names: Hosseini
     given-names: M. Reza
-    email: reza.hosseini@unimelb.edu.au
-    affiliation: "The University of Melbourne, Faculty of Architecture, Building and Planning"
-    orcid: "https://orcid.org/0000-0000-0000-0000"  # Update with actual ORCID
-repository-code: "https://github.com/morehosseini/construction-ai-timeseries-repo"
-url: "https://github.com/morehosseini/construction-ai-timeseries-repo"
-abstract: >
-  This repository provides a reproducible analysis pipeline for studying 
-  temporal patterns in AI-related job postings across Construction, Digital, 
-  and Traditional sectors. It employs advanced time-series techniques including 
-  STL decomposition, exponential smoothing forecasting, ARIMA modeling, and 
-  moving-block bootstrap inference. The repository is designed for researchers 
-  studying labor market dynamics, digital transformation in construction, and 
-  AI adoption patterns.
-keywords:
-  - construction industry
-  - artificial intelligence
-  - job market analysis
-  - time series analysis
-  - STL decomposition
-  - forecasting
-  - labor market trends
-  - digital transformation
-  - reproducible research
+    orcid: "https://orcid.org/0000-0001-8675-736X"
+  - family-names: Gheisari
+    given-names: Masoud
+  - family-names: Elghaish
+    given-names: Faris
+  - family-names: Vergés Eiras
+    given-names: Roger
+  - family-names: Arashpour
+    given-names: Mehrdad
+  - family-names: Rahimian
+    given-names: Farzad
+    orcid: "https://orcid.org/0000-0001-7443-4723"
+date-released: 2026-09-17
 license: MIT
-version: 1.0.0
-date-released: 2025-10-13
 preferred-citation:
   type: article
-  title: "AI-Related Job Posting Dynamics in Construction vs. Digital/Traditional Sectors: A Time-Series Analysis"
+  title: "Beyond the Laggard Myth: Time-Series Analysis of AI Job Market Dynamics in Construction"
+  journal: "Smart and Sustainable Built Environment"
   authors:
     - family-names: Hosseini
       given-names: M. Reza
-  journal: "Journal Name"  # Update when published
-  year: 2025
-  volume: "XX"
-  issue: "X"
-  start: 1
-  end: 20
-  doi: "10.xxxx/xxxxx"  # Update when available
+    - family-names: Gheisari
+      given-names: Masoud
+    - family-names: Elghaish
+      given-names: Faris
+    - family-names: Vergés Eiras
+      given-names: Roger
+    - family-names: Arashpour
+      given-names: Mehrdad
+    - family-names: Rahimian
+      given-names: Farzad
+  year: 2026

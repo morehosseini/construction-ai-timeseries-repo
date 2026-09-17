@@ -14,4 +14,4 @@ Sensitivity (optional to report):
 - Analysts may replicate the MoY test with block lengths 3 and 9 months to confirm qualitative stability of conclusions.
 - When sample sizes are short, differences across block lengths should be interpreted descriptively rather than as formal multiple-model evidence.
 
-Reporting: Main-text p-values (Table 1) correspond to block length 6 and B = 1,500. Confidence-band logic for CCFs follows the same bootstrap ethos and yields bands that include zero at candidate lags.
+Reporting: Main-text p-values (Table 1) correspond to block length 6 and B = 1,500. Cross-correlations are computed on STL remainders, with 95% percentile bands from a circular moving-block bootstrap (block = 6 months, B = 1,500, seed = 123). The bands exclude zero at lag 0 for Construction–Digital, and at lags 0 and +1 for Construction–Traditional. All other lags include zero.

@@ -3,6 +3,7 @@ data/
 *.xlsx
 *.xls
 *.csv
+!supplementary/*.csv
 !requirements.txt
 !**/sample_data.csv
 

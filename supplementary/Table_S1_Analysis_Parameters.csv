@@ -1,0 +1,11 @@
+Component,Setting
+Data frequency & span,Monthly; 51 observations per sector
+Sectors analysed,"Construction, Digital, Traditional"
+Transformation,Additive scale (λ≈1 implicit); no further transform in main results
+STL decomposition,Additive; period = 12; robust = True
+Seasonality test (primary),Month-of-year (12 categories) on STL trend-removed values
+Bootstrap for MoY test,"Moving-block bootstrap; block = 6 months; B = 1,500; seed = 7"
+Timing analysis (CCF),Detrended & seasonally adjusted series; inference via bootstrap bands
+Forecasting models (main),"ETS (additive trend & additive seasonality, period = 12); unstable ARIMA excluded"
+Forecast horizon & evaluation,Rolling one-step ahead over final 8 months
+Accuracy metrics,MAE; MASE (12-month seasonal-naïve denominator from full series); sMAPE

@@ -4,6 +4,7 @@ Tables
 - Table S1 — Analysis Parameters (CSV)
 - Table S2 — Seasonality Summary: STL seasonal-strength and Month-of-Year bootstrap p-values (CSV)
 - Table S3 — Forecast Metrics (ETS, stable fits only): MAE, MASE, sMAPE (CSV)
+- Table S4 — Bootstrap Cross-Correlation on STL Remainders (B = 1,500) (CSV)
 
 Appendices
 - Appendix C — Bootstrap Settings and Inference Notes (MD)
