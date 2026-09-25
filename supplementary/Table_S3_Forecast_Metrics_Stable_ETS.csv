@@ -1,4 +1,0 @@
-Sector,Model,MAE,MASE,sMAPE_percent
-Construction,ETS (stable-only),6.23,0.77,40.5
-Digital,ETS (stable-only),67.85,0.74,16.1
-Traditional,ETS (stable-only),72.3,0.66,15.7

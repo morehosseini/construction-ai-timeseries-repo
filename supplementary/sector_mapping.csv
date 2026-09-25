@@ -1,0 +1,87 @@
+ANZSIC_2006_subdivision,Division,Subdivision_name,Class_codes,Sector_group
+01,A,Agriculture,0100-0199,Traditional
+02,A,Aquaculture,0200-0299,Traditional
+03,A,Forestry and Logging,0300-0399,Traditional
+04,A,"Fishing, Hunting and Trapping",0400-0499,Traditional
+05,A,"Agriculture, Forestry and Fishing Support Services",0500-0599,Traditional
+06,B,Coal Mining,0600-0699,Traditional
+07,B,Oil and Gas Extraction,0700-0799,Traditional
+08,B,Metal Ore Mining,0800-0899,Traditional
+09,B,Non-Metallic Mineral Mining and Quarrying,0900-0999,Traditional
+10,B,Exploration and Other Mining Support Services,1000-1099,Traditional
+11,C,Food Product Manufacturing,1100-1199,Traditional
+12,C,Beverage and Tobacco Product Manufacturing,1200-1299,Traditional
+13,C,"Textile, Leather, Clothing and Footwear Manufacturing",1300-1399,Traditional
+14,C,Wood Product Manufacturing,1400-1499,Traditional
+15,C,"Pulp, Paper and Converted Paper Product Manufacturing",1500-1599,Traditional
+16,C,Printing (including the Reproduction of Recorded Media),1600-1699,Traditional
+17,C,Petroleum and Coal Product Manufacturing,1700-1799,Traditional
+18,C,Basic Chemical and Chemical Product Manufacturing,1800-1899,Traditional
+19,C,Polymer Product and Rubber Product Manufacturing,1900-1999,Traditional
+20,C,Non-Metallic Mineral Product Manufacturing,2000-2099,Traditional
+21,C,Primary Metal and Metal Product Manufacturing,2100-2199,Traditional
+22,C,Fabricated Metal Product Manufacturing,2200-2299,Traditional
+23,C,Transport Equipment Manufacturing,2300-2399,Traditional
+24,C,Machinery and Equipment Manufacturing,2400-2499,Traditional
+25,C,Furniture and Other Manufacturing,2500-2599,Traditional
+26,D,Electricity Supply,2600-2699,Traditional
+27,D,Gas Supply,2700-2799,Traditional
+28,D,"Water Supply, Sewerage and Drainage Services",2800-2899,Traditional
+29,D,"Waste Collection, Treatment and Disposal Services",2900-2999,Traditional
+30,E,Building Construction,3000-3099,Construction
+31,E,Heavy and Civil Engineering Construction,3100-3199,Construction
+32,E,Construction Services,3200-3299,Construction
+33,F,Basic Material Wholesaling,3300-3399,Traditional
+34,F,Machinery and Equipment Wholesaling,3400-3499,Traditional
+35,F,Motor Vehicle and Motor Vehicle Parts Wholesaling,3500-3599,Traditional
+36,F,"Grocery, Liquor and Tobacco Product Wholesaling",3600-3699,Traditional
+37,F,Other Goods Wholesaling,3700-3799,Traditional
+38,F,Commission-Based Wholesaling,3800-3899,Traditional
+39,G,Motor Vehicle and Motor Vehicle Parts Retailing,3900-3999,Traditional
+40,G,Fuel Retailing,4000-4099,Traditional
+41,G,Food Retailing,4100-4199,Traditional
+42,G,Other Store-Based Retailing,4200-4299,Traditional
+43,G,Non-Store Retailing and Retail Commission-Based Buying and/or Selling,4300-4399,Traditional
+44,H,Accommodation,4400-4499,Traditional
+45,H,Food and Beverage Services,4500-4599,Traditional
+46,I,Road Transport,4600-4699,Traditional
+47,I,Rail Transport,4700-4799,Traditional
+48,I,Water Transport,4800-4899,Traditional
+49,I,Air and Space Transport,4900-4999,Traditional
+50,I,Other Transport,5000-5099,Traditional
+51,I,Postal and Courier Pick-up and Delivery Services,5100-5199,Traditional
+52,I,Transport Support Services,5200-5299,Traditional
+53,I,Warehousing and Storage Services,5300-5399,Traditional
+54,J,Publishing (except Internet and Music Publishing),5400-5499,Traditional
+55,J,Motion Picture and Sound Recording Activities,5500-5599,Traditional
+56,J,Broadcasting (except Internet),5600-5699,Traditional
+57,J,Internet Publishing and Broadcasting,5700-5799,Traditional
+58,J,Telecommunications Services,5800-5899,Digital
+59,J,"Internet Service Providers, Web Search Portals and Data Processing Services",5900-5999,Digital
+60,J,Library and Other Information Services,6000-6099,Digital
+62,K,Finance,6200-6299,Digital
+63,K,Insurance and Superannuation Funds,6300-6399,Digital
+64,K,Auxiliary Finance and Insurance Services,6400-6499,Traditional
+66,L,Rental and Hiring Services (except Real Estate),6600-6699,Traditional
+67,L,Property Operators and Real Estate Services,6700-6799,Traditional
+69,M,"Professional, Scientific and Technical Services (except Computer System Design and Related Services)",6900-6999,Digital
+70,M,Computer System Design and Related Services,7000-7099,Digital
+72,N,Administrative Services,7200-7299,Digital
+73,N,"Building Cleaning, Pest Control and Other Support Services",7300-7399,Traditional
+75,O,Public Administration,7500-7599,Traditional
+76,O,Defence,7600-7699,Traditional
+77,O,"Public Order, Safety and Regulatory Services",7700-7799,Traditional
+80,P,Preschool and School Education,8000-8099,Traditional
+81,P,Tertiary Education,8100-8199,Traditional
+82,P,"Adult, Community and Other Education",8200-8299,Traditional
+84,Q,Hospitals,8400-8499,Traditional
+85,Q,Medical and Other Health Care Services,8500-8599,Traditional
+86,Q,Residential Care Services,8600-8699,Traditional
+87,Q,Social Assistance Services,8700-8799,Traditional
+89,R,Heritage Activities,8900-8999,Traditional
+90,R,Creative and Performing Arts Activities,9000-9099,Traditional
+91,R,Sports and Recreation Activities,9100-9199,Traditional
+92,R,Gambling Activities,9200-9299,Traditional
+94,S,Repair and Maintenance,9400-9499,Traditional
+95,S,Personal and Other Services,9500-9599,Traditional
+96,S,Private Households Employing Staff and Undifferentiated Goods- and Service-Producing Activities of Households for Own Use,9600-9699,Traditional

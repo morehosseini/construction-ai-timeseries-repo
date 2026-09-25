@@ -1,0 +1,14 @@
+Component,Setting
+Data,"Lightcast AI-related job postings, Australia and New Zealand, 2021-01-01 to 2025-03-17"
+Postings analysed,"45,256 (duplicate job identifiers removed: 3)"
+Sector mapping,ANZSIC 2006 subdivision of the employer's class code; see sector_mapping.csv
+Frequency and span,"Monthly; 51 observations per sector (March 2025 partial, to 17 March)"
+Decomposition,"STL, additive, period = 12, robust = True"
+Seasonal strength,"F_S = max(0, 1 - Var(R)/Var(S + R))"
+Month-of-year test,"Kruskal-Wallis on STL trend-removed values; circular moving-block bootstrap, block = 6, B = 1500, seed = 7"
+Cross-correlation,"STL remainders, lags +/-6; joint circular moving-block bootstrap, block = 6, B = 1500, seed = 123; 95% percentile bands"
+Lag convention,"Positive lag = Construction leads the comparator: corr(Construction_t, comparator_t+L)"
+Share ratios,"Quarterly Construction/comparator ratios; OLS trend with Newey-West (HAC) 95% CI, 2 lags"
+Forecasting,"ETS (additive trend and seasonality, period = 12); rolling one-step over final 8 months"
+Accuracy metrics,MAE; MASE (12-month seasonal-naive denominator from full series); sMAPE
+Sensitivity,All analyses repeated on the 50-month panel ending February 2025

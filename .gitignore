@@ -1,93 +1,26 @@
-# Data files (not tracked for privacy/licensing)
+# Licensed source data (never commit)
 data/
 *.xlsx
 *.xls
-*.csv
-!supplementary/*.csv
-!requirements.txt
-!**/sample_data.csv
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/*
-*.ipynb_checkpoints
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Virtual environments
-.venv/
-venv/
-ENV/
-env/
-.virtualenv/
-
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-
-# Secrets and credentials
-.env
-.env.local
-secrets/
-credentials/
-*.key
-*.pem
-
-# Output files (optional - comment out if you want to track outputs)
-outputs/figures/*.png
-outputs/figures/*.pdf
-outputs/tables/*.csv
-outputs/diagnostics/*
+# Generated outputs (regenerate with analysis/reproduce_paper.py)
+outputs/figures/*
+outputs/tables/*
+outputs/*.json
 !outputs/figures/.gitkeep
 !outputs/tables/.gitkeep
-!outputs/diagnostics/.gitkeep
 
-# Temporary files
-*.tmp
-*.bak
-*.log
-.cache/
+# Tabular files are only tracked in supplementary/
+*.csv
+!supplementary/*.csv
 
-# R files (if using R for supplementary analysis)
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-
-# Documentation builds
-docs/_build/
-site/
-
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-
-# OS
-Thumbs.db
-Desktop.ini
+# Python and editor artefacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+.claude/
